@@ -32,7 +32,7 @@
     Cons(Manual commit)
     Illogical checkpoints: Sometimes we might make the wrong decision on when to create a commit
     						The result of this is irrelevant checkpoints in your commit history 
-    						i.e. commits that can't be used
+    						
      pros(automatic commit)
      Automatic committing is especially useful when a programmer doesn't want to decide when to save
       and would rather have the system do it
