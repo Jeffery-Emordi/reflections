@@ -1,75 +1,81 @@
-<strong>How did viewing a diff between two versions of a file help you see the bug that was introduced?</strong>
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-	The diff format shows all the parts of the code that changed
-	viewing a diff made it easier to spot the bug that was introduced than having to compare the file by hand
-	Comparing the file by hand means i would have to look at every line
-	but the unified diff format, showing only the parts of the code that changed really helps
-	the unified diff format is really easy to read.
+	The diff format shows all the parts of the code that changed.
+	Viewing a diff made it easier to spot the bug that was introduced 
+	rather than having to compare the file by hand.
+	Comparing the file by hand would mean that I would have to look at every line,
+	but the unified diff format, showing only the parts of the code that changed really helps,
+	because I would only have to look at what changed.
+	The unified diff format is really easy to read.
 	Minus signs indicate what existed in the old version of the file.
-	A plus sign signifies what only existed in the new fersion of the file.
-	buy looking only at texts preceded with a minus or plus, 
-		I can easily spot the changes that may or may not have a potential bug
+	A plus sign signifies what existed in the new version of the file.
+	by looking only at texts preceded with a minus or plus, 
+	I can easily spot the changes that may or may not have a potential bug
 
 	Here i use the term unified diff format instructively, diff -u arg1 arg2
-	Viewing a diff without the ' -u' will still show the difference but in another format.
+	Viewing a diff without the '-u' will still show the difference but in another format.
 
-<strong>How could having easy access to the entire history of a file make you a more efficient programmer in the long term?</strong>
+How could having easy access to the entire history of a file 
+make you a more efficient programmer in the long term?
 	
 	'Entire history of a file' means 
 	all saved versions of that single file..
 	Having access to such fosters efficiency and productivity, 
-	I believe that having bits of your file saved means you can use different parts to build something else
-	Also you can make changes without having to worry about ruining the entire project,
-		since you can time travel to a different version of the file 
-  You can fix easily any error along the programming process by viewing a diff 
-  You can experiment with your code
+	I believe that having bits of your file saved means you 
+	can use different parts to build something else
+	Also you can make changes without having to worry about 
+	ruining the entire project, since you can time travel 
+	to a different version of the file.
+	You can fix easily any error along the programming process 
+	by viewing a diff and you can experiment with your code.
 
-  <strong>What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?</strong>
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
 
   	pros(manual commit)
   	Flexibilty: Since the user is creating commits when he chooses to, flexibilty is implied
   	Efficacy: Choosing when to create a commit allows more control over 'what' is being saved
     Cons(Manual commit)
     Illogical checkpoints: Sometimes we might make the wrong decision on when to create a commit
-    						The result of this is irrelevant checkpoints in your commit history 
-    						
-     pros(automatic commit)
-     Automatic committing is especially useful when a programmer doesn't want to decide when to save
-      and would rather have the system do it
-     It is reliable, the system would not forget to create a commit
-     cons(automatic commit)
-     It would still create a commit for you even if you try to manually save
-     Could create irrelevant or unusable commits
+    The result of this is irrelevant checkpoints in your commit history 
+    i.e. commits that can't be used
+    pros(automatic commit)
+    Automatic committing is especially useful when a programmer doesn't want to decide when to save
+    and would rather have the system do it
+    It is reliable, the system would not forget to create a commit
+    cons(automatic commit)
+    It would still create a commit for you even if you try to manually save
+    Could create irrelevant or unusable commits
 
-     <strong>Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?</strong>
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
 
     Git is a code supporting version control system. 
     It allows saving multiple files in one commit because sometimes when we're 'programming', 
-     we need to save multiple files together that complement each other
+    we need to save multiple files together that complement each other
 
     Google docs on the other hand sees it best to only create commits for the one file you're working on.
-     Since the files may or may not be related.
+    Since the files may or may not be related.
 
-<strong>How can you use the commands git log and git diff to view the history of files?</strong>
+How can you use the commands git log and git diff to view the history of files?
 	
 	git log shows you all of the commits made in a repository 
 	git diff allows you to compare between commits in a repository
-
 	so if i want to access the history of a file, i can use the git log command to see all of the saved changes
 	since one file is different from another in a repository, i can use a git diff to see what changed
 
-<strong>How might using version control make you more confident to make changes that could break something?</strong>
+How might using version control make you more confident to make changes that could break something?
 	
 	With version control i can visit different versions of my code and make changes if i need to,
-	 without affecting the original repo
+	without affecting the original repo
 	I can create a commit of the current state of my code, 
-     and using git checkout i can switch to another version of my code, 
-     and knowing fully well that git allows me to switch back to the most recent version anytime,
-     I can definitely make a change that could potentially break something
+    and using git checkout i can switch to another version of my code, 
+    and knowing fully well that git allows me to switch back to the most recent version anytime,
+    I can definitely make a change that could potentially break something
 
-     <strong>Now that you have your workspace set up, what do you want to try using Git for?</strong>
+Now that you have your workspace set up, what do you want to try using Git for?
 	
 	I want to master git and all of the tools it provides for code versioning
 	It would also be a form of primary practice for using a unix style command line
-	I would take advantage of it's service to make myself a more proficient programmer
+	I would take advantage of its service to make myself a more proficient programmer
 	I want to use git every minute possible
